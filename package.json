@@ -8,7 +8,8 @@
     "lint:fix": "eslint src --ext .ts --fix",
     "dev": "tsx watch src/server.ts",
     "start": "node build build/server.js",
-    "build": "tsup src --out-dir build"
+    "build": "tsup src --out-dir build",
+    "migrate": "prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
